@@ -5,7 +5,6 @@
 
 ## Olá, Tech's! :D
 
-
 ## Sobre
 - Descrição do nosso projeto
 
@@ -20,8 +19,6 @@ Fazendo um pedido de de busca sobre um direiro (usando uma palavra que lhe repre
 ## Dados para o usuário preencher para se cadastrar na API
 -email: texto e obrigatório;
 -senha: texto e obrigatório;
--profissão/ocupação: texto e obrigatório.
-
 
 
 ## Dados de responsabilidade do API que retornará ao servidor após a busca/consulta:
@@ -101,10 +98,17 @@ RETORNA: "/rights/delete/[ID]" Deleta o direito por id específico e retorna men
 ### Endpoints - links para testar o API
 
 **Link dos direitos:**
-- retornar todos os direitos registrados: http://localhost:8080/rights
-- Realizar o cadastro de um direito:  http://localhost:8080/rights/add
-- Atualizar os dados do direito: http://localhost:8080/rights/:id
-- Deletar o registro do direito: http://localhost:8080/rights/:id
+
+-acessar a API: https://direitos-das-mulheres-tech.herokuapp.com/
+
+- retornar todos os direitos registrados (http://localhost:8080/rights):
+https://direitos-das-mulheres-tech.herokuapp.com/rights
+
+- Realizar o cadastro de um direito:   https://direitos-das-mulheres-tech.herokuapp.com/rights/add
+
+- Atualizar os dados do direito: https://direitos-das-mulheres-tech.herokuapp.com//rights/:id
+
+- Deletar o registro do direito:  https://direitos-das-mulheres-tech.herokuapp.com//rights/:id
 
 
 **Link dos usuários para cadastrar:**
