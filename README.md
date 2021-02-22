@@ -75,27 +75,27 @@ RETORNA: "/rights/delete/[ID]" Deleta o direito por id específico e retorna men
 		 |   .env
 		 |   package-lock.json
 		 |   package.json
-	   |   **server.js**
-			\--📂 node_modules
-			\--📂src
-			    |   **app.js**
-			    |
-			    📂---controller
-			    |       **rightsController.js**
-			    |       **userController.js**
-          📂---data
-          |     **rights.json**
-          | 
-	  📂---model
-	  |       **rightsSchema.js
-	  |       **Repository.js**
-	  |       **userModel.js
-          📂---routes
-	  |	**rightsRoute.js**
-          |     **index.js**
-	  📂---validators
-	  	**userValidator.js**
-		**rightsValidator.js**
+	         |   **server.js**
+		 \--📂 node_modules
+		 \--📂src
+	         |   **app.js**
+	         |
+	         📂---controller
+	         |    **rightsController.js**
+	         |     **userController.js**
+                 📂---data
+                 |     **rights.json**
+                 | 
+	         📂---model
+	         |       **rightsSchema.js
+	         |       **Repository.js**
+	         |       **userModel.js
+                 📂---routes
+                 |      **rightsRoute.js**
+                 |     **index.js**
+	         📂---validators
+	  	 |      **userValidator.js**
+		 |     **rightsValidator.js**
 
 
 ### Endpoints - links para testar o API
